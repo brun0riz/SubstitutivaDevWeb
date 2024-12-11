@@ -1,0 +1,27 @@
+### Cadastrar aluno
+POST http://localhost:5250/api/aluno/cadastrar
+Content-Type: application/json
+
+{
+    "AlunoId" : "1",
+    "Nome" : "Bruno",
+    "Sobrenome" : "Trevizan"
+}
+###
+POST http://localhost:5250/api/aluno/cadastrar
+Content-Type: application/json
+
+{
+    "AlunoId" : "2",
+    "Nome" : "Carlos",
+    "Sobrenome" : "Trevizan"
+}
+### 
+POST http://localhost:5250/api/aluno/cadastrar
+Content-Type: application/json
+
+{
+    "AlunoId" : "3",
+    "Nome" : "Bruno",
+    "Sobrenome" : "Trevizan"
+}

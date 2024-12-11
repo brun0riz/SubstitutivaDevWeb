@@ -1,0 +1,26 @@
+### Cadastrar um IMC
+POST http://localhost:5250/api/imc/cadastrar
+Content-Type: application/json
+
+{
+    "ImcId" : "1",
+    "Peso" : 80,
+    "Altura" : 1.75,
+    "AlunoId" : "1"
+}
+###
+POST http://localhost:5250/api/imc/cadastrar
+Content-Type: application/json
+
+{
+    "ImcId" : "2",
+    "Peso" : 100,
+    "Altura" : 1.98,
+    "AlunoId" : "2"
+}
+
+### Listar IMC
+GET http://localhost:5250/api/icm/listar
+
+### Listar por aluno
+GET http://localhost:5250/api/icm/listarporaluno/{id}
